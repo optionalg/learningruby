@@ -7,11 +7,11 @@ def divide dividend, divisor
 
   if divisor == 0
   	raise StandardError, "You're trying to divide by 0"
-  end
+ 	end
 
   dividend/divisor
 
- end
+end
 
 begin
 	puts divide 5, 0
