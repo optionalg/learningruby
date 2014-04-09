@@ -15,7 +15,6 @@ end
 
 begin
 	puts divide 5, 0
-
 # capture Standard and Argument error
 rescue StandardError => e 
 	puts e.message
