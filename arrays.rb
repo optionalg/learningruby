@@ -42,3 +42,15 @@ puts posts.include? last_post
 
 puts posts.select { |post| post. title == 'First post' }
 
+# new array
+
+b = ['one','two','three','four']
+
+# select last element of array
+
+puts "last element of array: #{b[-1]}"
+
+# slicing 
+
+puts b[1..3] #inclusive of index element 3
+puts b[1...3] #exclusive of index element 3
